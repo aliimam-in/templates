@@ -17,6 +17,11 @@ export const metadata: Metadata = {
         template: '%s | Ali Imam',
     },
     description: 'My portfolio, blog, and personal website.',
+    icons: {
+    icon: "/ai-logo.png",
+    shortcut: "/ai-logo.png",
+    apple: "/ai-logo.png",
+  },
 }
 
 export default function RootLayout({

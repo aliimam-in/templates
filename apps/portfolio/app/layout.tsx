@@ -9,7 +9,7 @@ import { GradientBackground } from "@/components/ui/gradient-background";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://template-01.aliimam.in"),
+  metadataBase: new URL("https://portfolio.aliimam.in"),
   alternates: {
     canonical: "/",
   },
@@ -50,7 +50,7 @@ export default function RootLayout({
               <Analytics />
             </div>
             <GradientBackground
-              className="absolute inset-0 -z-50"
+              className="absolute inset-0 dark:opacity-50 -z-50"
               squareSize={1}
               gridGap={4}
               color="#6B7280"
@@ -100,7 +100,7 @@ function Header() {
   ];
 
   return (
-    <nav className="flex items-center justify-between border-b pb-6 text-center">
+    <nav className="flex items-center justify-between text-center">
       <div className="flex justify-center space-x-4 tracking-tight">
         {links.map((link) => (
           <a
