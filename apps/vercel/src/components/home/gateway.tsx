@@ -70,7 +70,7 @@ export function Gateway() {
                     aria-hidden="true"
                     fill="none"
                     height="32"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 100 100"
                     width="32"
                   >
@@ -78,10 +78,10 @@ export function Gateway() {
                       cx="50"
                       cy="50"
                       r="45"
-                      stroke-width="10"
-                      stroke-dashoffset="0"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="10"
+                      strokeDashoffset="0"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke="green"
                     ></circle>
                   </svg>
@@ -175,7 +175,7 @@ export function Gateway() {
                     aria-hidden="true"
                     fill="none"
                     height="32"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 100 100"
                     width="32"
                   >
@@ -183,10 +183,10 @@ export function Gateway() {
                       cx="50"
                       cy="50"
                       r="45"
-                      stroke-width="10"
-                      stroke-dashoffset="0"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="10"
+                      strokeDashoffset="0"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke="red"
                     ></circle>
                   </svg>
